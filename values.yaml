@@ -1,10 +1,10 @@
 replicas: 1
 cpu:
   requests: "25m"
-  limits: "100m"
+  limits: "8000m"
 memory:
   requests: "64Mi"
-  limits: "2048Mi"
+  limits: "16Gi"
 serviceType: ClusterIP
 image:
   Name: lsheiba/tensorflow-ls-devel
